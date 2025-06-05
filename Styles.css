@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #0b0b0d, #1c1c1e);
+  color: white;
+}
+ 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #111;
+}
+ 
+header nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+ 
+.banner {
+  text-align: center;
+  padding: 100px 20px;
+background-image: url('https://img.elo7.com.br/product/zoom/10B3DF6/painel-star-wars-13-2-00-x-1-00-cenario-de-chao.jpg');
+  background-size: cover;
+  background-position: center;
+}
+ 
+.banner h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+ 
+.banner p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+ 
+.banner button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  border: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+ 
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 50px;
+}
+ 
+.produto {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+ 
+.produto img {
+  width: 100%;
+  border-radius: 10px;
+}
+ 
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  margin-top: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #111;
+  background-image: url('https://link-da-sua-imagem.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.Destaque h1{
+   text-align: center;   
+   font-family: 'Arial', sans-serif;
+}
+
+.produto .preco {
+  font-size: 1.2em;
+  color: #ffcc00;
+  margin: 10px 0;
+}
+
+.produto .descricao {
+  font-size: 0.9em;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+.banner p {
+  color: #f7f3e5; /* amarelo vibrante */
+  font-weight: bold;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 2px #000; /* sombra preta para destacar */
+}
